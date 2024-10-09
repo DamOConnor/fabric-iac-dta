@@ -4,6 +4,9 @@
   "resources": [],
   "templateLink": {
     "uri": "https://raw.githubusercontent.com/fabric-iac-dta/main/main.bicep",
+
+            "https://raw.githubusercontent.com/DamOConnor/fabric-iac-dta/refs/heads/main/azuredeploy.json"
+
     "contentVersion": "1.0.0.0"
   }
 }
