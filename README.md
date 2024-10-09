@@ -19,18 +19,17 @@ Press this button to set the parameters and deploy to an Azure subscription.
 > Open the repo in an Edge (or Chrome) Profile for your external subscription to make sure you deploy to that subscription
 
 ### Parameters
-**!!TODO put this into a table?**
 
 The Bicep template has the following parameters:
 
 
 | Parameter            | Description                                                                                       | Example Value                      |
 |----------------------|---------------------------------------------------------------------------------------------------|------------------------------------|
-| administrator email  | The admin email for the subscription.  This is required to authorise the API connection                                                              | admin999@MCAPSetc.onmicrosoft.com  |
+| adminEmail  | The admin email for the subscription.  This is required to authorise the API connection                                                              | admin999@MCAPSetc.onmicrosoft.com  |
 | baseName             | the base name of the resources, eg if the baseName is `general-uks` the resources created will be: `rg-general-uks`, `fabgeneraluks`, `logicApp-pause-fabgeneraluks` | general-uks                        |
 | location             | the selected Azure region for deployment, eg `UKSouth`                                            | UKSouth                            |
-| hour                 | the hour the Fabric capacity will be paused, eg 21 for 9pm                                                                                             | 21                                 |
-| sku                  | this is the Fabric SKU, eg F2. Suggest leaving it at `F2` and manually scale in the portal if required | F2                                 |
+| hour                 | the approximate hour the Fabric capacity will be paused, eg 21 for 9pm.  Tweak the Logic App once deployed if you need a more specific time                                                                                             | 21                                 |
+| sku                  | this is the Fabric SKU, eg `F2`. Suggest leaving it at `F2` and manually scale in the portal if required | F2                                 |
 
 
 Click the button below when ready:
