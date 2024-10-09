@@ -34,4 +34,4 @@ The Bicep template has the following parameters:
 
 Click the button below when ready:
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/damoconnor/fabric-iac-dta/main/main.bicep)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/DamOConnor/fabric-iac-dta/refs/heads/main/arm/main.json)
